@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@font-face {
+  font-family: 'Architects Daughter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Architects Daughter Regular'), local('ArchitectsDaughter-Regular'), url(https://fonts.gstatic.com/s/architectsdaughter/v9/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg5g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Caveat Brush';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Caveat Brush'), local('CaveatBrush-Regular'), url(https://fonts.gstatic.com/s/caveatbrush/v4/EYq0maZfwr9S9-ETZc3fKXt8XLOX.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mali';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Mali Regular'), local('Mali-Regular'), url(https://fonts.gstatic.com/s/mali/v2/N0ba2SRONuN4SC3ECg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rancho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Rancho Regular'), local('Rancho-Regular'), url(https://fonts.gstatic.com/s/rancho/v9/46kulbzmXjLaqZRVam_k.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Sedgwick Ave';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Sedgwick Ave Regular'), local('SedgwickAve-Regular'), url(https://fonts.gstatic.com/s/sedgwickave/v4/uK_04rKEYuguzAcSYRdWTJqMWWIx.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Architects Daughter';
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+form label {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  font-family: 'Caveat Brush', cursive;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.main-navigation {
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px dashed black;
+  position: fixed;
+  margin-bottom: 100px;
+  background: white;
+  display: flex;
+}
+.main-navigation .nav-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: blue;
+}
+form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+form input {
+  width: 500px;
+  height: 40px;
+}
+.footer {
+  width: 100%;
+  border-top: 2px dashed black;
+  background: white;
+}
+.footer p {
+  text-align: center;
+  color: black;
+  font-size: 1.6rem;
+  padding: 20px;
+}
