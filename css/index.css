@@ -199,7 +199,7 @@ p {
   font-size: 1.6rem;
   padding-bottom: 10px;
 }
-.container {
+.main-container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
@@ -212,6 +212,8 @@ p {
   margin-bottom: 100px;
   background: white;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .main-navigation .nav-image {
   width: 60px;
@@ -219,17 +221,22 @@ p {
   border-radius: 50%;
   background: blue;
 }
-form {
-  width: 100%;
-  height: 100%;
+.main-navigation .top-nav {
+  width: 30%;
+  height: 90%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
 }
-form input {
-  width: 500px;
-  height: 40px;
+.main-navigation .top-nav .nav-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.main-navigation .top-nav .nav-list a {
+  text-decoration: none;
+  color: black;
+  font-size: 3rem;
+  font-family: 'Caveat Brush';
 }
 .footer {
   width: 100%;
